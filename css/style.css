@@ -1,0 +1,105 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    color: #434455 ;
+} 
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+ /* site nav */
+.site-nav .link {
+    color: #2E2F42;
+ }
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: #4D5AE5;
+ }
+.contacts-nav .link {
+    color: #434455;
+ }
+ .contacts-nav .link:hover,
+ .contacts-nav .link:focus
+ {
+    color: #4D5AE5;
+ }
+
+ /* section hero */
+
+ .hero {
+    background-color: #2E2F42;
+ }
+ .hero-title {
+color: #FFFFFF;
+ }
+ .hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+ }
+
+ /*section feauters */
+
+ .feauters-list .title{
+    color: #2E2F42;
+ }
+
+
+ /* what are we doing */
+ .active-title {
+    color: #2E2F42;
+ }
+
+ /* our team*/
+
+.team-title {
+    color: #2E2F42;
+}
+.team-text {
+    color: #434455;}
+
+
+    /* PORTFOLIO */
+
+    .buttons-list {
+        background-color: #F4F4FD;
+        color: #4D5AE5;
+    }
+
+    
+/* buttons */
+    .buttons-list:hover,
+    .buttons-list:focus {
+        background-color: #404BBF;
+        color: #FFFFFF;
+
+    }
+    /* our works */
+    .portfolio-title {
+        color: #2E2F42;
+    }
+
+    /* footer */
+
+.page-footer {
+    background-color: #2E2F42;
+    color: #E7E9FC;
+}
