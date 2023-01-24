@@ -36,7 +36,9 @@ a {
 ul {
     list-style: none;
 }
-
+button{
+    cursor: pointer;
+}
  /* site header */
  .logo-link {
     text-decoration: none;
