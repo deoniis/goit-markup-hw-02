@@ -20,6 +20,7 @@
    --color-cloud: #F4F4FD;
    --font-basic: 'Roboto', sans-serif;
    --font-secondary: 'Raleway', sans-serif;
+   
 }
 
 body {
@@ -38,6 +39,7 @@ ul {
 }
 button{
     cursor: pointer;
+    font-family: inherit;
 }
  /* site header */
  .logo-link {
@@ -53,6 +55,9 @@ button{
     color: var(--basic-color)
  }
 
+ 
+ .site-nav .link.current {
+    color: var(--color-iris);}
 
  .site-nav .link {
     color: #2E2F42;
@@ -60,10 +65,13 @@ button{
     font-size: 16px;
     font-weight: 500;
  }
+
  .site-nav .link:hover,
- .site-nav .link:focus {
-     color: #4D5AE5;
+ .site-nav .link:focus,
+ .site-nav .link :active {
+     color: var(--color-iris);
  }
+ 
  .contacts-info .link {
     font-style: normal;
     font-weight: 400;
@@ -89,7 +97,7 @@ button{
     line-height: 1.5;
     color: #FFFFFF;
     width: 494px;
-    height: 120px;
+    letter-spacing: 0.02em;
     
  }
  .hero-button {
@@ -113,12 +121,12 @@ button{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     
  }
  .feauters-text {
     color:var(--secondary-color);
-    font-weight: 400;
-    font-size: 16px;
+    
     line-height: 1.5;
  }
 
@@ -128,6 +136,7 @@ button{
     font-weight: 700;
      font-size: 36px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 /* our team */
@@ -140,14 +149,19 @@ button{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .team-heading {
     color: var(--basic-color);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
     }
-
+.team-text {
+    color: var(--secondary-color);
+    line-height: 1.5;
+}
 
 /* PORTFOLIO */
 
@@ -160,6 +174,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-family: var(--font-basic)
     
 }
 .buttons-list:hover,
@@ -174,11 +189,10 @@ color: var(--basic-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .portfolio-text {
-    font-family: var(--font-basic);
-    font-weight: 400;
-    font-size: 16px;
+ 
     line-height: 1.5;
     color: var(--secondary-color);
 }
@@ -202,8 +216,5 @@ line-height: 1.5;
 }
 .footer-text {
     color: #E7E9FC;
-    
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
 }
